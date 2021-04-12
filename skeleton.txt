@@ -1,0 +1,76 @@
+to do:
+  - learn buttons in sfml
+  - tic toc
+  - shapes (scope)
+  - libraries (SFML, timing library?)
+
+#include <iostream>
+#include <string>
+#include <chrono>
+#include <ctime>
+#include <SFML/Graphics.hpp>
+
+class elements
+  shape:
+  - circle
+  - square
+  - triangle
+  color:
+  - red
+  - blue
+  - green
+
+int main
+
+build home screen - start button
+
+while (!start)
+  stall
+
+while ( answering time AT !=  0) {
+  
+  create vector of N random elements
+
+  while ( memorizing time MT !=0 ) {
+    display the vector for T seconds
+  }
+  reset MT;
+
+  clear the window
+  stall for 1 or 2 seconds
+
+  if ( N > long sequence)
+    right answer = random nth element;
+  else right answer = entire vector;
+
+  tic
+  while ( answer.size() != right answer.size() ) {
+    give prompt (give entire sequence or nth element)
+    draw input buttons
+    answer.pushback(button)
+  }
+  toc
+
+  TT = toc - tic
+
+  AT = AT - TT;
+
+  if ( answer == right answer)
+    N = N + 1;
+    correct = correct + 1;
+  else
+    consecutive wrong = consecutive wrong + 1;
+    num wrong = num wrong + 1;
+
+  if (consecutive wrong == 2)
+    N = N - 1;
+    consecutive wrong == 0;
+}
+
+clear window
+
+draw end screen
+  - score
+    - accuracy (correct / correct + num wrong)
+    - max N
+  - play again
