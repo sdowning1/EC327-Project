@@ -277,7 +277,7 @@ int main() {
       // Key presses
       if (event.type == sf::Event::KeyPressed){
         if (event.key.code == sf::Keyboard::Enter){
-          answering_time = 10;
+          answering_time = 30;
           goto stimulus_screen;
         }
       }
