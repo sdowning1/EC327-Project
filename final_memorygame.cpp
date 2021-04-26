@@ -221,11 +221,6 @@ int main() {
     }
     if(answering_time <= 0)
       goto end_screen;
-    // if (answering_time - seconds_passed.tm_sec <= 0){
-    //   userin = "";
-    //   user_input.setString(userin);
-    //   goto end_screen;
-    // }
 
     while (window.pollEvent(event)) {
       // Close window request
@@ -236,7 +231,7 @@ int main() {
       // Read in user intput and display
       if (event.type == sf::Event::TextEntered) {
         userin += event.text.unicode;
-      } else if (event.key.code == sf::Keyboard::BackSpace) {
+      } else if (event.key.code == sf::Keyboard::BackSpace and !(userin.isEmpty())) {
           userin.erase(userin.getSize() - 1);
       }
       // Key presses
