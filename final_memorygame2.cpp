@@ -62,6 +62,7 @@ vector<float> get_averages(){
   return averages;
 }
 
+// appends accuracy and max_length to the text file
 void update_scoreboard(float accuracy, float max_length){
   std::ofstream scoreboard;
   scoreboard.open("scoreboard.txt", std::ios_base::app);
