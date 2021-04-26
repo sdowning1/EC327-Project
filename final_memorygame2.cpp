@@ -163,7 +163,7 @@ int main() {
   sf::Text comp_ans;
   comp_ans.setFont(font);
   comp_ans.setFillColor(sf::Color::White);
-  comp_ans.setCharacterSize(window_size/15);
+  comp_ans.setCharacterSize(window_size/20);
   comp_ans.setPosition(window_size/3, window_size/2.1);
 
   // Instructions
