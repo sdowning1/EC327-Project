@@ -95,7 +95,7 @@ int main() {
   // Window
   int window_size = 800;
   sf::RenderWindow window(sf::VideoMode(window_size, window_size), "Memory Game");
-  sf::Vector2f windowCenter = sf::Vector2f(window.getSize().x / 3.0f,
+  sf::Vector2f windowCenter = sf::Vector2f(window.getSize().x / 2.5f,
                               window.getSize().y / 2.0f);
   window.setFramerateLimit(10);
 
@@ -163,8 +163,8 @@ int main() {
   sf::Text comp_ans;
   comp_ans.setFont(font);
   comp_ans.setFillColor(sf::Color::White);
-  comp_ans.setCharacterSize(window_size/20);
-  comp_ans.setPosition(windowCenter);
+  comp_ans.setCharacterSize(window_size/15);
+  comp_ans.setPosition(window_size/3, window_size/2.1);
 
   // Instructions
   string stimulus_str = "Remember the sequence:";
