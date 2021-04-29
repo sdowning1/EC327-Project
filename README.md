@@ -1,4 +1,4 @@
-# EC327-Project
+# EC327-Project, Group 20, "Memory Tester"
 
 Instructions:
 1. Download final_memorygame2.cpp, makefile, and scoreboard.txt and place them under the same directory.
