@@ -7,8 +7,8 @@ Instructions:
 5. Now run "memory".
 6. The game window should pop up and you may start playing.
 
-Authors:
-Avani Sheth,
-Daniel Cabrera,
-Joshua Monroy,
-Samantha Downing.
+Authors://
+Avani Sheth  
+Daniel Cabrera  
+Joshua Monroy  
+Samantha Downing  
