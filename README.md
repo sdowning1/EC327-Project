@@ -6,6 +6,7 @@ Instructions:
 4. Using a linux terminal, run the command "make memory_game" to compile the cpp program.
 5. Now run "memory".
 6. The game window should pop up and you may start playing.
+7. You may close the window at any point to stop playing.
 
 Authors:  
 Avani Sheth  
