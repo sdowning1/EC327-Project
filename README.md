@@ -8,7 +8,7 @@ Instructions:
 6. The game window should pop up and you may start playing.
 
 Authors:
-Avani Sheth
-Daniel Cabrera
-Joshua Monroy
-Samantha Downing
+Avani Sheth,
+Daniel Cabrera,
+Joshua Monroy,
+Samantha Downing.
