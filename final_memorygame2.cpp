@@ -1,3 +1,9 @@
+// Copyright 2021
+// Avani Sheth asheth@bu.edu
+// Daniel Cabrera dcabrera@bu.edu
+// Joshua Monroy jmonroy@bu.edu
+// Samantha Downing sdown@bu.edu
+
 #include <iostream>
 #include <string>
 #include <chrono>
