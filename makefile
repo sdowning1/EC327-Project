@@ -1,10 +1,4 @@
-# Copyright 2021 AvaniSheth asheth@bu.edu
-# Copyright 2021 SamanthaDowning sdown@bu.edu
-# all: adjustableclock
+all: memory_game
 
-# adjustableclock: adjustableclock.cpp
-# 	g++ adjustableclock.cpp -o adjustableclock -lsfml-graphics -lsfml-window -lsfml-systems
-all: game
-
-game: game.cpp
-	g++ game.cpp -o game -lsfml-graphics -lsfml-window -lsfml-system
+memory_game: final_memorygame2.cpp
+	g++ final_memorygame2.cpp -o memory -lsfml-graphics -lsfml-window -lsfml-system
