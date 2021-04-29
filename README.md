@@ -6,3 +6,9 @@ Instructions:
 4. Using a linux terminal, run the command "make memory_game" to compile the cpp program.
 5. Now run "memory".
 6. The game window should pop up and you may start playing.
+
+Authors:
+Avani Sheth
+Daniel Cabrera
+Joshua Monroy
+Samantha Downing
